@@ -1,1 +1,1 @@
-testing
+Mock sewing blog.
