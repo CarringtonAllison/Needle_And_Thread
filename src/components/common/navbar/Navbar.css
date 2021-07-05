@@ -1,0 +1,17 @@
+.navbar-brand {
+  color: red !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid {
+  background-color: black !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.nav-link {
+  color: white !important;
+}

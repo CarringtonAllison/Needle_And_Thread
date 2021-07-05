@@ -1,30 +1,29 @@
 import React from 'react' 
-import { Nav, Navbar, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
+import './Navbar.css'
+import { Nav, Navbar, Container, Row, Col } from 'react-bootstrap';
 
 
 const Navi = () => {
     return (
-        <Navbar bg="light" expand="lg">   
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
-                </Nav>
-                <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Search</Button>
-                </Form>
-            </Navbar.Collapse>
-        </Navbar>
+        <Container fluid> 
+            <Row> 
+                <Navbar expand="lg">   
+                    <Col lg="9"> 
+                        <Navbar.Brand href="/">Needle & Thread</Navbar.Brand>
+                    </Col>
+                    <Col lg ="2">
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#link">Pattern</Nav.Link>
+                            <Nav.Link href="#link">Blog</Nav.Link>
+                        </Nav>
+                        </Navbar.Collapse>
+                    </Col>
+                </Navbar>
+            </Row>
+        </Container>
     );
 }; 
 
