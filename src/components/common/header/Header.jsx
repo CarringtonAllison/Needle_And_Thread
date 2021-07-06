@@ -1,12 +1,16 @@
 import React from 'react'; 
 import './Header.css'
 import Navi from '../navbar'
-import { Container } from 'react-bootstrap';
+import Home from '../home'
+ import { Container } from 'react-bootstrap';
 
 
 const Header = () => {
     return (
-            <Navi />
+        <div className="divContainer">
+            <Navi /> 
+            <Home /> 
+        </div>
     )
 }; 
 

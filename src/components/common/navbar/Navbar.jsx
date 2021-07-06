@@ -7,8 +7,8 @@ const Navi = () => {
     return (
         <Container fluid> 
             <Row> 
-                <Navbar expand="lg">   
-                    <Col lg="9"> 
+                <Navbar expand="lg" id="naviContainer">   
+                    <Col lg="9" className="offset-1"> 
                         <Navbar.Brand href="/">Needle & Thread</Navbar.Brand>
                     </Col>
                     <Col lg ="2">

@@ -1,0 +1,29 @@
+#homeContainer {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-patterns {
+  background-color: teal !important;
+}
+
+.homeRow {
+  text-align: center;
+}
+
+.homeQuote {
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.divContainer {
+  background-image: url("../../../photos/j-williams-tabzu_kbVs0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -20rem;
+}
