@@ -1,5 +1,5 @@
 import { React } from 'react' 
-import { Header, Home, Pattern, Blog } from './components/common'
+import { Header, Home, Pattern, Blog, Contact } from './components/common'
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
         <Header />
         <Pattern /> 
         <Blog /> 
+        <Contact /> 
       </div>
   );
 }
